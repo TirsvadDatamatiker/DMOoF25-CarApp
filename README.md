@@ -12,7 +12,7 @@ Car registrations app
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)]
+  - [Prerequisites](#prerequisites)
 - [Folder Structure](#folder-structure) 
 
 ## About The Project
