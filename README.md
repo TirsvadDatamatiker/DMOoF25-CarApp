@@ -11,8 +11,11 @@ Car registrations app
 
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+    - [Prerequisites](#prerequisites)
+    - [Build and Run](#build-and-run)
+- [Features](#features)
+- [Todo](#todo)
+- [Known issues](#known-issues)
 - [Folder Structure](#folder-structure) 
 
 ## About The Project
@@ -28,18 +31,62 @@ To get a local copy up and running follow these simple steps.
 This is an example of how to list things you need to use the software and how to install them.
 
 - .NET 9.0
-  ```ps
-  https://dotnet.microsoft.com/download/dotnet/9.0
-  ```
+    ```
+    https://dotnet.microsoft.com/download/dotnet/9.0
+    ```
 
 - Visual Studio 2022
-  ```ps
-  https://visualstudio.microsoft.com/
-  ```
+    ```
+    https://visualstudio.microsoft.com/
+    ```
+
+- Install Sqlite and Dapper
+
+    Go to the project folder and run the following commands
+
+    ```
+    dotnet nuget add source https://api.nuget.org/v3/index.json
+    dotnet add package Dapper
+    dotnet add package Microsoft.Data.Sqlite
+    ```
+
+### Build and Run
+
+1. Clone the repo
+    ```sh
+    git clone git@github.com:DMOoF25-Team-11/CarApp.git
+    ```
+
+2. Open the project in Visual Studio 2022
+
+3. Build the project
+
+4. Run the project
+
+5. Optionally, you can import sample data by pressing 'F7' in menu and then 'F1' in database menu
+
+You may need to remove / change key bindings ´F11´ in the VS buildin terminal to use the application properly.
+
+## Features
+
+- [x] Add car
+- [x] Load / Save car to database
+- [x] Calculate trip fuel price
+- [x] Print rapport of car
+- [x] Export / Import json data
+
+## Todo
+
+- [ ] Clear Database
+
+## Known issues
+
+- [ ] When returned from database menu, then main menu title missing first letter. Temporary fix wrtting a char to console before clear.
+- [ ] When import and export json give user info about the process
 
 ## Folder Structure
 
-```bash
+```sh
 ./logo/             #Contains the logo of the project.
 ./documentation/    #Contains the documentation for the project.
 ./images/           #Contains images used in the documentation.

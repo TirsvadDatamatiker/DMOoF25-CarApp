@@ -1,0 +1,212 @@
+﻿{
+  "FileVersion": null,
+  "Cars": [
+    {
+      "Id": 1,
+      "Brand": "Ford",
+      "Model": "Ranger",
+      "Year": 2025,
+      "GearType": "A",
+      "FuelTypeId": 2,
+      "FuelType": null,
+      "FuelEfficiency": 8.4,
+      "Mileage": 25000,
+      "Description": ""
+    },
+    {
+      "Id": 2,
+      "Brand": "Mercedes",
+      "Model": "E300",
+      "Year": 2017,
+      "GearType": "A",
+      "FuelTypeId": 3,
+      "FuelType": null,
+      "FuelEfficiency": 21.4,
+      "Mileage": 175000,
+      "Description": ""
+    },
+    {
+      "Id": 3,
+      "Brand": "Proton",
+      "Model": "Saga",
+      "Year": 2022,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 15.4,
+      "Mileage": 123321,
+      "Description": ""
+    },
+    {
+      "Id": 4,
+      "Brand": "Honda",
+      "Model": "CVR",
+      "Year": 2014,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 7.9,
+      "Mileage": 165254,
+      "Description": ""
+    },
+    {
+      "Id": 5,
+      "Brand": "Toyota",
+      "Model": "Vios",
+      "Year": 2019,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 12.4,
+      "Mileage": 123456,
+      "Description": ""
+    },
+    {
+      "Id": 6,
+      "Brand": "Nissan",
+      "Model": "Almera",
+      "Year": 2020,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 13.4,
+      "Mileage": 654321,
+      "Description": ""
+    },
+    {
+      "Id": 7,
+      "Brand": "BMW",
+      "Model": "X5",
+      "Year": 2018,
+      "GearType": "A",
+      "FuelTypeId": 2,
+      "FuelType": null,
+      "FuelEfficiency": 9.4,
+      "Mileage": 987654,
+      "Description": ""
+    },
+    {
+      "Id": 8,
+      "Brand": "Audi",
+      "Model": "A4",
+      "Year": 2016,
+      "GearType": "A",
+      "FuelTypeId": 2,
+      "FuelType": null,
+      "FuelEfficiency": 10.4,
+      "Mileage": 123456,
+      "Description": ""
+    },
+    {
+      "Id": 9,
+      "Brand": "Mazda",
+      "Model": "CX5",
+      "Year": 2015,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 11.4,
+      "Mileage": 654321,
+      "Description": ""
+    },
+    {
+      "Id": 10,
+      "Brand": "Volvo",
+      "Model": "XC90",
+      "Year": 2017,
+      "GearType": "A",
+      "FuelTypeId": 2,
+      "FuelType": null,
+      "FuelEfficiency": 10.4,
+      "Mileage": 987654,
+      "Description": ""
+    },
+    {
+      "Id": 11,
+      "Brand": "Kia",
+      "Model": "Sorento",
+      "Year": 2019,
+      "GearType": "A",
+      "FuelTypeId": 3,
+      "FuelType": null,
+      "FuelEfficiency": 16.2,
+      "Mileage": 123456,
+      "Description": ""
+    },
+    {
+      "Id": 12,
+      "Brand": "Hyundai",
+      "Model": "Tucson",
+      "Year": 2018,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 11.4,
+      "Mileage": 654321,
+      "Description": ""
+    },
+    {
+      "Id": 13,
+      "Brand": "Peugeot",
+      "Model": "3008",
+      "Year": 2017,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 10.4,
+      "Mileage": 987654,
+      "Description": ""
+    },
+    {
+      "Id": 14,
+      "Brand": "Renault",
+      "Model": "Koleos",
+      "Year": 2016,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 9.4,
+      "Mileage": 123456,
+      "Description": ""
+    },
+    {
+      "Id": 15,
+      "Brand": "Citroen",
+      "Model": "C5",
+      "Year": 2015,
+      "GearType": "A",
+      "FuelTypeId": 1,
+      "FuelType": null,
+      "FuelEfficiency": 8.4,
+      "Mileage": 654321,
+      "Description": ""
+    }
+  ],
+  "FuelTypes": [
+    {
+      "Id": 1,
+      "Name": "Benzin 95",
+      "Price": 13.49
+    },
+    {
+      "Id": 2,
+      "Name": "Benzin 98",
+      "Price": 14.49
+    },
+    {
+      "Id": 3,
+      "Name": "Diesel",
+      "Price": 12.49
+    },
+    {
+      "Id": 4,
+      "Name": "EL",
+      "Price": 3.04
+    },
+    {
+      "Id": 5,
+      "Name": "Gas",
+      "Price": 6.49
+    }
+  ]
+}
